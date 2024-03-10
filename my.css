@@ -1,0 +1,59 @@
+.Home {
+	background-image: url(image/bga.gif);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+.BIOD {
+	color: orange;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.bio {
+	color: rgba(255, 251, 6, 0.911);
+	text-align: center;
+	padding-bottom: 30px;
+}
+.cv1 {
+	background-size: cover;
+	background-color: var(--bs-body-bg);
+    padding-top: 160px;
+}
+.cvbg {
+	color: rgb(255, 255, 255);
+	background: linear-gradient(rgb(14, 8, 70) 20%, rgb(51, 5, 110) 50%, rgb(45, 2, 65) 90%);
+}
+.imcv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    transform: translateY(-100px);
+}
+.im {
+    width: 200px;
+}
+.about {
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.exp {
+	transform: translateY(50px);
+}
+.bioo h6{
+	padding-top: 10px;
+	color: orange;
+}
+.bioo p{
+	transform: translateY(-8px);
+}
