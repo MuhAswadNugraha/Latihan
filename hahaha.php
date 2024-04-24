@@ -65,3 +65,4 @@ echo "Satuan Barang : " . $barang->getSatuan() . "\n";
 echo "===============================================\n";
 echo $barang->getNama() . " @ Rp " . number_format($barang->getHarga(), 0, ',', '.') . ' x ' . $barang->getJumlah() . " " . $barang->getSatuan() . "\n";
 echo 'Total = Rp ' . number_format($total, 0, ',', '.') . "\n";
+?>
