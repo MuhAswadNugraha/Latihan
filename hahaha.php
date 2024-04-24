@@ -51,10 +51,7 @@ $harga = trim(fgets(STDIN));
 echo "Masukkan jumlah barang: ";
 $jumlah = trim(fgets(STDIN));
 
-echo "Masukkan satuan barang: ";
-$satuan = trim(fgets(STDIN));
-
-$barang = new Barang($nama, $harga, $jumlah, $satuan);
+$barang = new Barang($nama, $harga, $jumlah, "pcs");
 $total = $barang->hitungTotal();
 
 echo "\n** Tugas Pertemuan 10\n";
